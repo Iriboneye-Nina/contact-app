@@ -1,8 +1,9 @@
 
-import React from 'react'
-import Navbar from './components/navbar'
-import Body from './components/body'
-import Contact from './components/contact'
+import React from 'react';
+import Navbar from './components/navbar';
+import Body from './components/body';
+import {BrowserRouter , Routes , Route} from 'react-router-dom';
+import Contact from './components/contact';
 
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
     <div>
     <Navbar/>
     <Body/>
-    <Contact/>
+   <Contact />
     </div>
    
    

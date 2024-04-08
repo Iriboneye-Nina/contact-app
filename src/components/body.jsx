@@ -9,7 +9,7 @@ function Body() {
       <button id='btn' className='border-r text-center bg-black text-white rounded-md w-20 h-12'>Add New</button>
       </div>
     </div>
-    <div id='container' className='flex justify-center gap-80 px-10 bg-slate-400 w-100 h-12'>
+    <div id='container' className='flex justify-center gap-80 px-10 bg-slate-400 w-6/6 h-12 md:20%'>
       <div>
         Uwera Anick<br></br>
         0726548043
@@ -19,26 +19,32 @@ function Body() {
         anickyuwera@gmail.com
       </div>
     </div>
-    <div id='container2' className='flex justify-center p-10 gap-80 bg-slate-200'>
-    <div>
-        Uwera Anick<br></br>
-        0726548043
-      </div>
-      <div>
-        ...<br></br>
-        anickyuwera@gmail.com
-      </div>
+    <div class="card bg-slate-200">
+    <div class='flex justify-center p-10 gap-16'>
+        <div>
+            Uwera Anick<br></br>
+            0726548043
+        </div>
+        <div>
+            ...<br></br>
+            anickyuwera@gmail.com
+        </div>
     </div>
-    <div id='container2' className='flex justify-center p-10 gap-80 bg-slate-200'>
-    <div>
-        Uwera Anick<br></br>
-        0726548043
-      </div>
-      <div>
-        ...<br></br>
-        anickyuwera@gmail.com
-      </div>
+</div>
+
+<div class="card bg-slate-500">
+    <div class='flex justify-center p-6 gap-16'>
+        <div>
+            Uwera Anick<br></br>
+            0726548043
+        </div>
+        <div>
+            ...<br></br>
+            anickyuwera@gmail.com
+        </div>
     </div>
+</div>
+
     </>
    
    
